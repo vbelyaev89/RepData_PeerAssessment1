@@ -19,7 +19,7 @@ ds <- read.csv("activity.csv", header = T, na.strings = "NA", stringsAsFactors =
 ```
 
 ## What is mean total number of steps taken per day?
-Let's calculate the total number of steps taken per day and then get the mean and the median. I added additional brakes for better understanding.
+Let's calculate the total number of steps taken per day and then get the mean and the median.
 The results can be verified based on the histogram and the abline (mean value).
 
 

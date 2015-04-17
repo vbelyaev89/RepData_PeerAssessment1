@@ -65,7 +65,7 @@ Sys.setlocale(&quot;LC_TIME&quot;, &quot;C&quot;)</code></pre>
 </div>
 <div id="what-is-mean-total-number-of-steps-taken-per-day" class="section level2">
 <h2>What is mean total number of steps taken per day?</h2>
-<p>Let’s calculate the total number of steps taken per day and then get the mean and the median. I added additional brakes for better understanding. The results can be verified based on the histogram and the abline (mean value).</p>
+<p>Let’s calculate the total number of steps taken per day and then get the mean and the median. The results can be verified based on the histogram and the abline (mean value).</p>
 <pre class="r"><code>grouped_steps &lt;- tapply(ds$steps, ds$date, sum)
 mean_steps &lt;- round(mean(grouped_steps, na.rm = T))
 median_steps &lt;- median(grouped_steps, na.rm = T)
